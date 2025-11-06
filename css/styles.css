@@ -107,6 +107,7 @@ img {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/peopleoffice.jpg);
+    background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -163,6 +164,14 @@ img {
 .features-items {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.features-wrapper {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+
+}
 .features-item {
     font-weight: 500;
     font-size: 20px;
@@ -179,6 +188,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.strategy-antenna {
+    color: #404bbf;
+}
+
 .section-team {
     background: #f4f4fd;
     padding: 120px 0;
@@ -221,7 +234,18 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
+.social-icons {
+    
+}
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -262,6 +286,14 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+}
+.logo-container {
+    margin-right: 120px;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -284,4 +316,12 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+.social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }

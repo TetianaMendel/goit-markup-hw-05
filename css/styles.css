@@ -381,6 +381,9 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
+.footer-social-container {
+    margin-right: 80px;
+}
 .social-title {
     font-weight: 500;
     font-size: 16px;
@@ -402,4 +405,45 @@ img {
 
 .socials-link.footer-link:active {
     background-color: #31d0aa;
+}
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.subscribe-input {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+ .subscribe-input::placeholder {
+    color: #bbb;
+}
+
+.btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+    background-color: #404bbf;
 }
